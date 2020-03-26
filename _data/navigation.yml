@@ -1,0 +1,23 @@
+# name and link for each navigation option
+
+- label: Home
+  link: /
+
+- label: Services
+  link: /services.html
+
+- label: Meet the team
+  link: /team.html
+
+- label: blog
+  link: /blog.html
+
+- label: About
+  link: /LS_about.html
+
+- label: Contact
+  link: /contact.html
+
+
+
+       

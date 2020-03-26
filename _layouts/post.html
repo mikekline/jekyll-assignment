@@ -1,0 +1,23 @@
+<!-- template for single blog post -->
+
+{% include header.html %}
+
+<main class="center">
+  <div class="wrapper">
+    <!-- copied from  https://jekyllrb.com/docs/step-by-step/08-blogging/ with some modifications-->
+    <h1>{{ page.title }}</h1>
+    <!-- displays date and converts date to a more readable format, displays authors name -->
+    <p class="info">{{ page.date | date_to_string }} - {{ page.author }}</p>
+
+    <hr>
+
+    <div class="posts">
+      {{ content }} 
+    </div>
+    <a class="button" href="/blog.html">Back to blog posts</a>
+  </div>
+</main>
+
+{% include footer.html %}
+
+

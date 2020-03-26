@@ -1,0 +1,11 @@
+title: Law & Sons
+# below left blank for now, but keep incase I need to use them
+baseurl: "" # the subpath of your site, e.g. /blog (repo name for github pages)
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+collections:
+  team:
+    output: true #used to seperate collections on page into individual links
+
+
+
